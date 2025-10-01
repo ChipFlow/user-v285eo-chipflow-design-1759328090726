@@ -1,0 +1,18 @@
+[design]
+name = "chipflow-design-1759328090726"
+description = "ChipFlow design generated from configurator"
+
+[design.soc]
+class = "design:MySoC"
+
+[design.blocks]
+analog-bandgap = { enabled = true }
+analog-ldo = { enabled = true }
+analog-por = { enabled = true }
+digital-uart = { enabled = true }
+digital-i2c = { enabled = true }
+digital-minerva = { enabled = true }
+digital-socid = { enabled = true }
+
+[build]
+target = "sky130"
